@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename="/sound-design-portfolio">
+      <BrowserRouter basename="/audio-portfolio">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/reel" element={<Reel />} />
