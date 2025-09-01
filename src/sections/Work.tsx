@@ -14,7 +14,7 @@ const Work = () => {
   }, []);
 
   return (
-    <section id="work" className="flex flex-col pt-16 px-7 justify-center items-center scroll-mt-15 bg-[#FDFCF5]">
+    <section id="work" className="flex flex-col pt-16 px-7 justify-center items-center scroll-mt-15 bg-[#FDFCF5] text-black">
       <h2 className="text-5xl font-bold pb-10">Work Section</h2>
 
       <div className="flex flex-row items-center w-full max-w-6xl gap-5">
