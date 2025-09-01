@@ -8,7 +8,7 @@ const Reel = () => {
 
   return (
     // Make the whole page fill the viewport and stack vertically
-    <section id="Reel" className="min-h-dvh flex flex-col bg-white text-black">
+    <section id="Reel" className="min-h-dvh flex flex-col bg-[#FDFCF5] text-black">
       {/* Header */}
       <header className="relative flex w-full bg-black justify-between">
         <div className="hidden md:flex items-center font-extrabold text-white px-12 text-[clamp(1.5rem,5vw,3rem)]">
@@ -61,7 +61,7 @@ const Reel = () => {
             <HashLink
               to="/#contact"
               smooth
-              className="inline-block border border-black px-6 py-3 text-sm tracking-wider hover:bg-black hover:text-white transition"
+              className="inline-block border border-black px-6 py-3 text-sm rounded-sm tracking-wider hover:bg-black hover:text-white transition"
             >
               CONTACT ME
             </HashLink>
@@ -73,7 +73,7 @@ const Reel = () => {
             <HashLink
               to="/#work"
               smooth
-              className="inline-block border border-black px-6 py-3 text-sm tracking-wider hover:bg-black hover:text-white transition"
+              className="inline-block border border-black px-6 py-3 text-sm rounded-sm tracking-wider hover:bg-black hover:text-white transition"
             >
               SEE MORE WORK
             </HashLink>

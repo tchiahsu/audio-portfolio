@@ -23,7 +23,7 @@ const About = () => {
     }
 
     return (
-        <section id="about" className="flex flex-col pt-17 gap-10 justify-center items-center scroll-mt-15">
+        <section id="about" className="flex flex-col pt-17 gap-10 justify-center items-center scroll-mt-15 bg-[#FDFCF5]">
             
             <h2 className="text-5xl font-bold">About Me</h2>
             
@@ -50,15 +50,15 @@ const About = () => {
             <div className="mx-auto h-px w-full max-w-6xl bg-gray-300" />
 
             {/* Skills Section */}
-            <div className="w-screen h-[60vh] sm:h-[60vh] md:h-[50vh] bg-gray-200 flex flex-col justify-center items-center gap-8">
+            <div className="w-screen h-auto bg-gray-200 flex flex-col justify-center items-center gap-8">
                 {/* Skills Title */}
-                <h2 className="text-4xl font-bold pb-10 flex flex-col items-center justify-center gap-3">
+                <h2 className="text-4xl font-bold py-10 flex flex-col items-center justify-center gap-3">
                     Bag of Skills
                     <div className="mt-2 w-16 h-1 bg-black rounded"></div>
                 </h2>
 
                 {/* Skill List */}
-                <div className="grid grid-cols-2 gap-y-10 gap-x-10 md:grid-cols-3 md:gap-y-20 md:gap-x-30 text-center">
+                <div className="grid grid-cols-2 gap-y-10 gap-x-10 md:grid-cols-3 md:gap-y-20 md:gap-x-30 text-center pb-10">
                     <Skill label="WWISE" image={Wwise}/>
                     <Skill label="UNITY" image={Unity}/>
                     <Skill label="REAPER" image={Reaper}/>

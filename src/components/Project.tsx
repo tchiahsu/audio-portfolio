@@ -14,7 +14,7 @@ const Project = ({ title, subtitle, paragraph, video }: ProjectProps) => {
 
   return (
     // Make the whole page fill the viewport and stack vertically
-    <section id="Project" className="min-h-dvh flex flex-col bg-white text-black">
+    <section id="Project" className="min-h-dvh flex flex-col text-black bg-[#FDFCF5]">
       {/* Header */}
       <header className="relative flex w-full bg-black justify-between">
         <div className="hidden md:flex items-center font-extrabold text-white px-12 text-[clamp(1.5rem,5vw,3rem)]">
@@ -35,7 +35,7 @@ const Project = ({ title, subtitle, paragraph, video }: ProjectProps) => {
       <main className="flex-1">
         <div className="max-w-6xl mx-auto px-6 md:px-8">
           {/* Title */}
-          <h1 className="text-center text-3xl md:text-5xl font-extrabold tracking-wide my-12 md:mt-20">
+          <h1 className="text-center text-3xl md:text-5xl font-extrabold tracking-wide my-12 md:mt-16">
             {title}
           </h1>
 
@@ -59,18 +59,18 @@ const Project = ({ title, subtitle, paragraph, video }: ProjectProps) => {
 
           <div className="flex mx-auto mt-8 mb-10 h-px w-full max-w-5xl bg-gray-300" />
           
-          <div className="flex justify-center items-center gap-5">
+          <div className="flex justify-center items-center gap-5 pb-10">
             <HashLink
               to="/#contact"
               smooth
-              className="inline-block border border-black px-6 py-3 text-sm tracking-wider hover:bg-black hover:text-white transition"
+              className="inline-block border border-black px-6 py-3 text-sm rounded-sm tracking-wider hover:bg-black hover:text-white transition"
             >
               CONTACT ME
             </HashLink>
             <HashLink
                 to="/#work"
                 smooth
-                className="inline-block border border-black px-6 py-3 text-sm tracking-wider hover:bg-black hover:text-white transition"
+                className="inline-block border border-black px-6 py-3 text-sm rounded-sm tracking-wider hover:bg-black hover:text-white transition"
               >
                 SEE MORE WORK
               </HashLink>
