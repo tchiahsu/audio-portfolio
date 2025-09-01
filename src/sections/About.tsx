@@ -58,7 +58,7 @@ const About = () => {
                 </h2>
 
                 {/* Skill List */}
-                <div className="grid grid-cols-2 gap-y-10 gap-x-10 md:grid-cols-3 md:gap-y-20 md:gap-x-30 text-center pb-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-10 md:grid-cols-3 md:gap-y-20 md:gap-x-30 text-center pb-10">
                     <Skill label="WWISE" image={Wwise}/>
                     <Skill label="UNITY" image={Unity}/>
                     <Skill label="REAPER" image={Reaper}/>

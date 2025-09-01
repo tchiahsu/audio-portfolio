@@ -111,7 +111,7 @@ const Header = () => {
 
                 {/* Reel Button */}
                 <div className="absolute inset-0 flex flex-col text-white justify-center items-center gap-12 pt-16 z-10">
-                    <div className="flex flex-row gap-6 text-lg md:text-2xl justify-center items-center">
+                    <div className="flex flex-row gap-6 text-lg md:text-2xl px-4 md:px-0 justify-center items-center">
                         CREATIVE AUDIO
                         <FaCircle className="size-1.5" />
                         SOUND DESIGN
@@ -133,7 +133,7 @@ const Header = () => {
                 <div className={`fixed top-0 left-0 w-full bg-black shadow-md z-50 transform transition-transform duration-500 ease-in-out
                                 ${showSticky ? "translate-y-0" : "-translate-y-full"}`}>
                     <nav className="flex justify-center items-center px-8 py-4">
-                        <ul className="flex gap-14">
+                        <ul className="flex gap-6 md:gap-16">
                             <li><Anchor href="#home" label="HOME" onClick={setCurrentPage} currentPage={currentPage} /></li>
                             <li><Anchor href="#work" label="WORK" onClick={setCurrentPage} currentPage={currentPage} /></li>
                             <li><Anchor href="#about" label="ABOUT" onClick={setCurrentPage} currentPage={currentPage} /></li>
