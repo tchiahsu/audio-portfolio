@@ -8,9 +8,9 @@ const Reel = () => {
 
   return (
     // Make the whole page fill the viewport and stack vertically
-    <section id="Reel" className="min-h-dvh flex flex-col bg-[#FDFCF5] text-black">
+    <section id="Reel" className="min-h-dvh flex flex-col bg-[#FDFCF5] text-black overflow-x-clip">
       {/* Header */}
-      <header className="relative flex w-screen bg-black justify-between">
+      <header className="relative flex w-screen bg-black justify-between box-border">
         <div className="hidden md:flex items-center font-extrabold text-white px-12 text-[clamp(1.5rem,5vw,3rem)]">
           <span className="text-gray-300">RAI</span>
           <span>MUNDO</span>
@@ -82,7 +82,7 @@ const Reel = () => {
       </main>
 
       {/* Footer gets pushed to bottom by mt-auto */}
-      <footer className="mt-auto w-screen bg-black text-white border-t border-gray-800">
+      <footer className="mt-auto w-screen bg-black text-white border-t border-gray-800 box-border">
         <div className="max-w-6xl mx-auto px-6 md:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-extrabold text-lg tracking-wide">
             <span className="text-gray-300">RAI</span>MUNDO

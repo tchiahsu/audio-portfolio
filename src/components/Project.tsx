@@ -14,9 +14,9 @@ const Project = ({ title, subtitle, paragraph, video }: ProjectProps) => {
 
   return (
     // Make the whole page fill the viewport and stack vertically
-    <section id="Project" className="min-h-dvh flex flex-col text-black bg-[#FDFCF5]">
+    <section id="Project" className="min-h-dvh flex flex-col text-black bg-[#FDFCF5] overflow-x-clip">
       {/* Header */}
-      <header className="relative flex w-screen bg-black justify-between">
+      <header className="relative flex w-screen bg-black justify-between box-border">
         <div className="hidden md:flex items-center font-extrabold text-white px-12 text-[clamp(1.5rem,5vw,3rem)]">
           <span className="text-gray-300">RAI</span>
           <span>MUNDO</span>
