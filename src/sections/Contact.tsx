@@ -23,7 +23,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
-            <div className="relative min-h-[calc(250vh/3) h-auto md:h-[70vh] min-h-[60vh]">
+            <div className="relative h-[80vh] md:h-[70vh] min-h-[60vh]">
                 {/* Background Image */}
                 <img
                     src={contact}
