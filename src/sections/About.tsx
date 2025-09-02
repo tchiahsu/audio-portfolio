@@ -8,11 +8,20 @@ import Live from "../assets/logos/ableton.png";
 import ProTools from "../assets/logos/protools.png";
 
 
-const introduction = `I'm Raimundo Almenara, a sound engineer and audio designer in training based in Tokyo, Japan.
 
-My background is in media production and post-production. I’ve worked hands-on with recording equipment and editing tools in collaborative, fast-paced environments, building a strong foundation in technical precision and creative problem-solving. Today, I continue to hone my skills in recording, mixing, and sound design at [School Name].
 
-I’m passionate about crafting immersive audio, whether through music, sound effects, or post-production polish. If you have a project that needs quality sound, feel free to reach out!`;
+const introduction = `
+Hello! I’m Raimundo Almenara, a sound designer based in Tokyo, Japan.
+
+My love for sound started back when my dad brought home our first family computer. I was the kid who opened every program, clicked every button, and twisted every setting just to see what would happen. Looking back, that same spirit of experimentation has become the foundation of my approach to sound design.
+
+Today, I bring that curiosity into every project I work on. For me, sound is storytelling. I believe the best results come from starting with the concept first, then shaping sound to bring a world to life. Whether it’s creating the weight of a giant monster, the subtle textures of an environment, or a stylized effect that pushes the imagination, I design with narrative in mind.
+
+On the technical side, I have strong experience in recording, design, and audio implementation, with deep knowledge of Wwise, Unity, and Reaper. I’m passionate about making work that is both original and polished. I always want to leave a touch of unexpected details that surprise people whenever they look a little closer.
+
+If you’re working on a project that needs high-quality, story-driven sound, feel free to get in touch!
+`;
+
 
 const About = () => {
 
@@ -33,7 +42,7 @@ const About = () => {
                     <img
                     src={profile}
                     alt="Unable to Load"
-                    className="pb-8 md:pb-0 w-full max-w-[400px] aspect-square object-cover rounded-lg" />
+                    className="pb-8 md:pb-0 w-full aspect-square object-cover rounded-lg" />
                 </div>
                 <div className="flex flex-col text-left whitespace-pre-line p-6">
                     {introduction}
