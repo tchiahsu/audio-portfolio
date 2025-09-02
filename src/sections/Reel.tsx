@@ -10,13 +10,13 @@ const Reel = () => {
     // Make the whole page fill the viewport and stack vertically
     <section id="Reel" className="min-h-dvh flex flex-col bg-[#FDFCF5] text-black">
       {/* Header */}
-      <header className="relative flex w-full bg-black justify-between">
+      <header className="relative flex w-screen bg-black justify-between">
         <div className="hidden md:flex items-center font-extrabold text-white px-12 text-[clamp(1.5rem,5vw,3rem)]">
           <span className="text-gray-300">RAI</span>
           <span>MUNDO</span>
         </div>
         <nav className="flex z-20 py-6 px-12">
-          <ul className="flex gap-12">
+          <ul className="flex gap-6 md:gap-12">
             <li><Anchor href="/#home" label="HOME" onClick={setCurrentPage} currentPage={currentPage} /></li>
             <li><Anchor href="/#work" label="WORK" onClick={setCurrentPage} currentPage={currentPage} /></li>
             <li><Anchor href="/#about" label="ABOUT" onClick={setCurrentPage} currentPage={currentPage} /></li>
